@@ -14,7 +14,7 @@ const Test = () => {
     // console.log(user)
   };
 
-  // useEffect for 
+  // useEffect for side effects
   useEffect(() => {
     fetchingUser();
   }, []);
